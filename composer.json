@@ -1,20 +1,30 @@
 {
-    "name": "league/flysystem-azure-blob-storage",
-    "autoload": {
-        "psr-4": {
-            "League\\Flysystem\\AzureBlobStorage\\": ""
-        }
-    },
-    "require": {
-        "php": "^8.0.2",
-        "league/flysystem": "^3.10.0",
-        "microsoft/azure-storage-blob": "^1.1"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Frank de Jonge",
-            "email": "info@frankdejonge.nl"
-        }
-    ]
+  "name": "league/flysystem-azure-blob-storage",
+  "autoload": {
+    "psr-4": {
+      "League\\Flysystem\\AzureBlobStorage\\": ""
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "league/flysystem": "^3.10.0",
+    "azure-oss/storage": "dev-main"
+  },
+  "require-dev": {
+    "league/flysystem-adapter-test-utilities": "^3.10.0",
+    "phpunit/phpunit": "^11.0.0"
+  },
+  "repositories": [
+    {
+      "url": "https://github.com/azure-oss/azure-storage-php.git",
+      "type": "git"
+    }
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frank de Jonge",
+      "email": "info@frankdejonge.nl"
+    }
+  ]
 }

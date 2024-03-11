@@ -9,8 +9,8 @@ use League\Flysystem\Config;
 use League\Flysystem\FilesystemAdapter;
 use League\Flysystem\UnableToSetVisibility;
 use League\Flysystem\Visibility;
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Common\Internal\StorageServiceSettings;
+use AzureOSS\Storage\Blob\BlobRestProxy;
+use AzureOSS\Storage\Common\Internal\StorageServiceSettings;
 use function getenv;
 
 /**
