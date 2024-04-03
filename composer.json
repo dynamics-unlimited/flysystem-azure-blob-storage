@@ -1,5 +1,5 @@
 {
-  "name": "league/flysystem-azure-blob-storage",
+  "name": "dynamics-unlimited/flysystem-azure-blob-storage",
   "autoload": {
     "psr-4": {
       "League\\Flysystem\\AzureBlobStorage\\": ""
@@ -23,8 +23,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Frank de Jonge",
-      "email": "info@frankdejonge.nl"
+      "name": "Nicolas GIROD",
+      "email": "nicolas.girod@thinkproject.com"
     }
   ]
 }
